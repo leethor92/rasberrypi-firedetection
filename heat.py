@@ -1,4 +1,5 @@
 from sense_hat import SenseHat
+import time
 
 sense = SenseHat()
 sense.clear()
@@ -14,4 +15,4 @@ while True:
   else:
     sense.show_message("Fine!",text_colour = green)
   print(temp)
- 
+  time.sleep(10)
