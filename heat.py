@@ -30,7 +30,7 @@ def writeData(temp):
 #While loop that displays text based on the tempature read from sensehat
 while True:
   #temperature is rounded to 2 deicmals
-  temp=round(sense.get_temperature()+40,2)
+  temp=round(sense.get_temperature(),2)
   #if temp is over 50 or more user is alerted to fire by tweet & sensehat
   if temp >=50:
     sense.show_message("FIRE!",text_colour = red)
