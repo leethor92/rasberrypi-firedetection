@@ -22,4 +22,7 @@ to Run scripts used commands
 python heat.py
 node fire-blynk.js
 
+Temperature data can be viewed below
+https://raspberrypi-firealarm.glitch.me/
+
 The fire-blynk.js file is designed to be used in conjuction with the Blynk mobile app to control & on/off vitrual pin of a smart sprinkler system, once the user is notified of a fire the user can remotely trigger the sprinkler system using their mobile phone.
