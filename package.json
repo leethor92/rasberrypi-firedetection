@@ -1,0 +1,24 @@
+{
+  "name": "rasberrypi-firedetection",
+  "version": "0.0.0",
+  "description": "Rasberry Pi Fire detection system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leethor92/rasberrypi-firedetection.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leethor92/rasberrypi-firedetection/issues"
+  },
+  "homepage": "https://github.com/leethor92/rasberrypi-firedetection#readme",
+  "dependencies": {
+    "blynk-library": "^0.5.3",
+    "node-sense-hat": "0.0.2",
+    "onoff": "^3.2.2"
+  }
+}
